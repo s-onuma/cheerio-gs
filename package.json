@@ -1,0 +1,28 @@
+{
+  "name": "cheerio-gs",
+  "version": "1.0.0",
+  "description": "cheerio for google apps script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/s-onuma/cheerio-gs.git"
+  },
+  "author": "Shinya Onuma <shinya.numa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-onuma/cheerio-gs/issues"
+  },
+  "homepage": "https://github.com/s-onuma/cheerio-gs#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "rollup": "^2.79.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
